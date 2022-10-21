@@ -43,10 +43,27 @@ if choice =='a':
                 print("You have succesfully stayed in the netherlands for a month but did you really think they wont notice you?")
                 print("YOU HAVE DIED")
 
-    if choice == 'b':
+if choice == 'c':
+    print("You walked to another town, but u saw a lot of other people")
+    print("a: talk to them")
+    print("b: walk faster")
+    choice = input()
+    
+    if choice == 'a':
+        print("You tried to talk to them but as soon as you talked to them")
+        print("You got punched, kicked and even cursed on")
+        print("You looked at the sky as they left your soulless body")
+        print("YOU HAVE DIED")
+    
+    elif choice == 'b':
+        print("You reached a safe point at a nearby town")
+        print("After years you decided to move to the Netherlands to start your NEW life there")
+
+    elif choice == 'b':
         print("You arrived in Columbia")
         print("They dont like refugees and therfore they have shot you along with the others")
         print("YOU HAVE DIED")
+        
     elif choice == 'c':
         print("You arrived in America")
         print("What will you do first?")
@@ -85,39 +102,23 @@ elif choice =='b':
 
     choice = input()
         
-    if choice == 'b':
-        print("You ran in the helicopter hoping there would still be some space left, as u hoped there was lots of space left")
-        print("but as u look to the side none was sitting at the drivers seat")
-        print("a: You wait till someone arrives with some flight experience")
-        print("b: You take it on yourself and try to manage it by yourself")
-
-        choice = input()  
-
-        if choice == 'a':
-            print("You waited and waited till someone actually stepped up and started the helicopter engine")
-            print("Soon you were already so high up the sky")
-            print("but u noticed that the helicopter driver was having some problems")
-            print("The helicopter was falling down because of the decline in the engine")
-            print("YOU HAVE DIED")
+elif choice == 'b':
+    print("You ran in the helicopter hoping there would still be some space left, as u hoped there was lots of space left")
+    print("but as u look to the side none was sitting at the drivers seat")
+    print("a: You wait till someone arrives with some flight experience")
+    print("b: You take it on yourself and try to manage it by yourself")
+    
+    choice = input()  
+    
+    if choice == 'a':
+        print("You waited and waited till someone actually stepped up and started the helicopter engine")
+        print("Soon you were already so high up the sky")
+        print("but u noticed that the helicopter driver was having some problems")
+        print("The helicopter was falling down because of the decline in the engine")
+        print("YOU HAVE DIED")
             
-
-        if choice == 'b':
-            print("You started the engine of the plane")
-            print("But to your suprise it didnt start up")
-            print("Well its better that it didnt start at all if it wont last longer than 30 minutes")
-
-    if choice == 'c':
-        print("You walked to another town, but u saw a lot of other people")
-        print("a: talk to them")
-        print("b: walk faster")
-
-        choice = input()
-        
-        if choice == 'a':
-            print("You tried to talk to them but as soon as you talked to them")
-            print("You got punched, kicked and even cursed on")
-            print("You looked at the sky as they left your soulless body")
-            print("YOU HAVE DIED")
-        elif choice == 'b':
-            print("You reached a safe point at a nearby town")
-            print("After years you decided to move to the Netherlands to start your NEW life there")
+    if choice == 'b':
+        print("You started the engine of the plane")
+        print("But to your suprise it didnt start up")
+        print("A few soldies from an unknown country stormed in the helicopter with their LOADED guns")
+        print("YOU HAVE DIED")
