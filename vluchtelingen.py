@@ -43,11 +43,10 @@ if choice =='a':
                 print("You have succesfully stayed in the netherlands for a month but did you really think they wont notice you?")
                 print("YOU HAVE DIED")
 
-    elif choice == 'b':
+    if choice == 'b':
         print("You arrived in Columbia")
         print("They dont like refugees and therfore they have shot you along with the others")
         print("YOU HAVE DIED")
-
     elif choice == 'c':
         print("You arrived in America")
         print("What will you do first?")
@@ -119,8 +118,6 @@ elif choice =='b':
             print("You got punched, kicked and even cursed on")
             print("You looked at the sky as they left your soulless body")
             print("YOU HAVE DIED")
-
-        
-        if choice == 'b':
+        elif choice == 'b':
             print("You reached a safe point at a nearby town")
             print("After years you decided to move to the Netherlands to start your NEW life there")
