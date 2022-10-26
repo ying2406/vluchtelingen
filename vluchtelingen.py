@@ -123,6 +123,6 @@ if choice =='a':
             choice = input()
 
 elif choice =='b':
-    print("U stayed where u were and soon the military of a unknown country stobrmed in your place")
+    print("U stayed where u were and soon the military of a unknown country stormed in your place")
     print("They shot u with their LOADED weapons. . ")
     print("YOU HAVE DIED")
