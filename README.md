@@ -3,7 +3,7 @@
 Naam: Ho-Ying Yip
 Klas: SD1A
 
-![Flowchart](https://cdn.discordapp.com/attachments/720993389935329282/1034807923701985390/Flowchart.png)
+![Flowchart](https://cdn.discordapp.com/attachments/1027538644917026849/1037643467737813012/unknown.png)
 
 #This is the only required information you have acces to at the moment:
 
